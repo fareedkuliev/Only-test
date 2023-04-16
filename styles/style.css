@@ -1,0 +1,99 @@
+
+body{
+    background-color: #7F7BB0;
+    font-family: 'Poppins', "Monaco";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    font-family: 'Poppins', 'Monaco';
+    text-align: center;
+    color: white;
+}
+form{
+    background-color: inherit;
+    border-radius: 25px;
+    width: 300px;
+    margin-left: 250px;
+    text-align: inherit;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#name,
+#email,
+#number,
+#phone,
+#password {
+    width: 300px;
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+
+}
+
+textarea{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+button{
+    width: 280px;
+    height: 40px;
+    color: white;
+    margin: 10px;
+    background-color: #7F7BB0;
+    border-radius: 10px;
+    justify-content: center;
+    font-family: 'Poppins', 'Monaco';
+}
+
+.brd{
+    border: 2px double black;
+    border-radius: 10px;
+    background: #CDCAFC;
+    width: 600px;
+    margin: auto;
+}
+
+.welcome {
+    border: 2px double black;
+    border-radius: 10px;
+    background: #CDCAFC;
+    width: 450px;
+    height: 150px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.welcome1 {
+    border: 2px double black;
+    border-radius: 10px;
+    background: #CDCAFC;
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.welcome-group{
+    margin-top: 15px;
+}
+
+
+.p2 {
+    color: darkred;
+}
+
+h4 {
+    font-size: 10px;
+    margin-left: 10px;
+}
