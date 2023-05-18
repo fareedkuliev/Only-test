@@ -57,10 +57,3 @@ if(!$_POST['name'] && !$_POST['email'] && !$_POST['phone'] && !$_POST['password'
     $_SESSION['message'] = 'Empty data';
     header("Location: /welcome.php");
 }
-
-
-
-
-
-
-
